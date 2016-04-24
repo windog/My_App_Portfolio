@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--style相当于把多个view的相同属性提取出来，而且更方便的是，个别view有例外的属性时可以像之前一样定义，不受影响-->
+    <style name="Mystyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#F08C35</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
 </resources>

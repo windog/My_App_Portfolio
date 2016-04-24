@@ -21,68 +21,33 @@
 
     <Button
         android:id="@+id/spotify_btn"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
+        style="@style/Mystyle"
         android:layout_marginTop="32dp"
-        android:background="#F08C35"
-        android:text="Spotify Streamer"
-        android:textAllCaps="true" />
+        android:text="Spotify Streamer" />
 
     <Button
         android:id="@+id/scores_btn"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_marginTop="8dp"
-        android:background="#F08C35"
-        android:text="Football Scores App"
-        android:textAllCaps="true" />
+        style="@style/Mystyle"
+        android:text="Football Scores App" />
 
     <Button
         android:id="@+id/library_btn"
-        android:background="#F08C35"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_marginTop="8dp"
-        android:text="Library App"
-        android:textAllCaps="true" />
+        style="@style/Mystyle"
+        android:text="Library App" />
 
     <Button
         android:id="@+id/build_btn"
-        android:background="#F08C35"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_marginTop="8dp"
-        android:text="Build it bigger"
-        android:textAllCaps="true" />
+        style="@style/Mystyle"
+        android:text="Build it bigger" />
 
     <Button
         android:id="@+id/reader_btn"
-        android:background="#F08C35"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_marginTop="8dp"
-        android:text="XYZ Reader"
-        android:textAllCaps="true" />
+        style="@style/Mystyle"
+        android:text="XYZ Reader" />
 
     <Button
         android:id="@+id/capstone_btn"
-        android:textColor="#FFFFFF"
+        style="@style/Mystyle"
         android:background="@android:color/holo_red_dark"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_marginTop="8dp"
-        android:text="Capstone:My Own app"
-        android:textAllCaps="true" />
+        android:text="Capstone:My Own app" />
 </LinearLayout>

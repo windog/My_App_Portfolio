@@ -26,10 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         scores = (Button) findViewById(R.id.scores_btn);
         scores.setOnClickListener(this);
 
-
         library = (Button) findViewById(R.id.library_btn);
         library.setOnClickListener(this);
-
 
         build = (Button) findViewById(R.id.build_btn);
         build.setOnClickListener(this);
@@ -48,24 +46,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.spotify_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my spotify app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my spotify app", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.scores_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my scores app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my scores app", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.library_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my library app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my library app", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.build_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my build app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my build app", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.reader_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my Reader app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Reader app", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.capstone_btn:
-                Toast.makeText(MainActivity.this,"This button will launch my capstone app",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This button will launch my capstone app", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
